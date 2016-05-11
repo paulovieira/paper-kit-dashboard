@@ -145,7 +145,7 @@ hr {
 .sidebar .logo,
 .off-canvas-sidebar .logo {
   padding: 18px 0px;
-  margin: 0 20px;
+  margin: 0;
 }
 .sidebar .logo p,
 .off-canvas-sidebar .logo p {
@@ -817,6 +817,7 @@ hr {
 
   .nav-open .wrapper {
     left: 0;
+    opacity: 0.5;
     -webkit-transform: translate3d(-230px, 0, 0);
     -moz-transform: translate3d(-230px, 0, 0);
     -o-transform: translate3d(-230px, 0, 0);

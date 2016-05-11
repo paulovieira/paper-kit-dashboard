@@ -262,6 +262,7 @@
     }
     .nav-open .wrapper{
         left: 0;
+        opacity: 0.5; // changed
         @include transform-translate-x(-230px);
     }
     .navbar-toggle .icon-bar {

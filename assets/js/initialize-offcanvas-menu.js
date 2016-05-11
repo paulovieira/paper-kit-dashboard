@@ -23,8 +23,11 @@ function initRightMenu(){
         ul_content += $(this).html();
     });
 
+    ul_content += '<li class="divider"></li>';
+
     // copy the contents from the regular sidebar on the left
-    ul_content += '<li class="divider"></li>'+ $sidebar.find('.nav').html();
+    ul_content += $sidebar.find('.nav').html();
+
     ul_content += '</ul>';
 
     var logoContents = ($sidebar.find('.logo').first())[0].outerHTML;
